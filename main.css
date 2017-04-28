@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Gotham Narrow Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('typos/Gotham Narrow Medium'), url('typos/GothamNarrow-Medium.woff') format('woff');
+}
+
+body{
+    font-family: "Gotham Narrow Medium", "calibri", sans-serif;
+    font-size: 1.5em;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    color: white;
+    height: 100vh;
+    background-image: url("images/bg0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: relative;
+}
+
+nav ul{
+    margin: 0;
+    float:right;
+}
+
+nav li{
+    
+    display: table-cell;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #434242;
+}
+
+.centre{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+}
+
